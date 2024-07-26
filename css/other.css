@@ -1,0 +1,12 @@
+/* Fun little extras */
+
+.backgroundStripe {
+    background-color: #8FAEB8;
+    margin-top: 130px;
+
+    width: 100vw;
+    height: 300px;
+
+    position: absolute;
+    z-index: -10;
+}

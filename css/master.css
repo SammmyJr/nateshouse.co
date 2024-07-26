@@ -1,0 +1,135 @@
+/* Everything else */
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/Quicksand/Quicksand-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Bree Serif";
+    src: url("../fonts/Bree_Serif/BreeSerif-Regular.ttf");
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    font-family: "Bree Serif";
+    font-size: 6vw;
+}
+
+.lefty {
+    text-align: end;
+}
+
+p {
+    font-size: 4.5vw;
+    margin: 0px;
+    padding: 10px
+}
+
+a {
+    font-size: 6vw;
+    color: cadetblue;
+}
+
+footer {
+    background-color: #8FAEB8;
+    padding: 15px;
+
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    font-family: "Bree Serif";
+
+    gap: 0px;
+}
+
+.contact p {
+    font-size: 10vw;
+}
+
+.cards {
+    background: linear-gradient(to top, #8FAEB8 65%, rgba(0,0,0,0) 65%);
+
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    margin-top: 75px;
+
+    align-items: bottom;
+    justify-content: center;
+    justify-items: center;
+}
+
+.card {
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    margin: 5px;
+    padding: 10px;
+
+    width: 40%;
+}
+
+.card h2 {
+    margin: 10px;
+}
+
+.card p {
+    font-size: 3.4vw;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.aboutus {
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+.aboutus h2 {
+    margin: 0px;
+}
+
+.imagecaption {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagecaption img {
+    width: 50%;
+}

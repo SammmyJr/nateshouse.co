@@ -1,0 +1,42 @@
+/* Just for the title page, gets a bit chaotic */
+
+.title {
+    text-align: center;
+
+    margin: 50px;
+    margin-top: 125px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 0px;
+}
+
+.title h1 {
+    font-size: 15vw;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    text-shadow: 7px 7px 10px grey;
+    margin: 0px;
+}
+
+.title h6 {
+    font-size: 5vw;
+    font-weight: 100;
+    color: white;
+    text-shadow: 2px 2px 5px grey;
+    margin: 0px;
+}
+
+.titleBackground {
+    position: absolute;
+    top: -450;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+
+    mask-image: linear-gradient(rgba(0,0,0,1) 0%, rgba(0,0,0,1) 82%, rgba(0,0,0,0) 100%);
+}
