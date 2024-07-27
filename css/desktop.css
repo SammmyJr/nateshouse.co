@@ -1,0 +1,39 @@
+/* Styles specific for desktop */
+
+@media only screen and (min-width: 600px) {
+    .titleBackground {
+        top: -700px;
+    }
+
+    p {
+        font-size: 1vw;
+    }
+
+    .title h6 {
+        font-size: 2.4vw;
+    }
+
+    .contact {
+        margin-bottom: 200px;
+    }
+
+    .contact p {
+        font-size: 2.4vw;
+    }
+
+    .contact a {
+        font-size: 2.4vw;
+    }
+
+    .card h2 {
+        font-size: 3vw;
+    }
+
+    .card p {
+        font-size: 1.5vw;
+    }
+
+    .side {
+        padding: 100px;
+    }
+}

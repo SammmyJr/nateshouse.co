@@ -4,7 +4,8 @@
     text-align: center;
 
     margin: 50px;
-    margin-top: 125px;
+    margin-top: 50px;
+    margin-bottom: 15px;
 
     display: flex;
     flex-direction: column;
@@ -12,6 +13,10 @@
     justify-items: center;
     align-items: center;
     gap: 0px;
+}
+
+.title img {
+    max-width: 250px;
 }
 
 .title h1 {
@@ -33,7 +38,7 @@
 
 .titleBackground {
     position: absolute;
-    top: -450;
+    top: -20vh;
     left: 0;
     z-index: -10;
     width: 100%;
